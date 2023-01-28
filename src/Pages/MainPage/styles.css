@@ -1,0 +1,136 @@
+.mainPage{
+    color: white;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.page-title{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+}
+
+.text-title{
+    font-family: "Cat Linz";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.text-info{
+    font-family: "Mulish";
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.toPictures_btn{
+    padding: 16px 123px;
+    border: 1px solid #ff9110;
+    border-radius: 92px;
+    background-color: #ff9110;
+    font-family: "Mulish";
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    color: #2b2b2d;
+    cursor: pointer;
+    margin-right: 350px;
+    margin-top: 27px;
+    width: 337px;
+}
+
+.toPictures_btn:hover{
+    background-color: #b5670e;
+    color: rgb(209, 209, 209);
+}
+
+.image{
+    max-width: 683px;
+    max-height: 513px;
+    
+}
+
+.image-laptop{
+    position: relative;
+    top: -160px;
+    width: 100%;
+    height: 100%;
+}
+
+a:active{
+    color: #2b2b2d;
+}
+
+a:hover{
+    color: #2b2b2d;
+}  
+
+a{
+    text-decoration: none;
+    color: #2b2b2d;
+}
+
+
+@media (max-width: 1211px){
+
+    .text{
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .image{
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 850px){
+
+    .mainPage{
+        margin-left: 20px;
+    }
+
+    .toPictures_btn{
+        margin-right: 0;
+    }
+
+}
+
+
+@media (max-width: 512px){
+
+    .text-title{
+        font-size: 40px;
+    }
+
+    .text-info{
+        font-size: 15px;
+    }
+
+    .mainPage{
+        margin-left: 0;
+    }
+
+    .text{
+        margin-left: 2px;
+    }
+}

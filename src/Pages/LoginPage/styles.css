@@ -1,0 +1,125 @@
+.login{
+    background-color: #161616;
+    height: 100vh;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.input-container{
+display: flex;
+flex-direction: column;
+}
+
+.login-form-header{
+    margin-right: 530px;
+    font-family: "Cat Linz";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #f9f4f1;
+    justify-content:flex-start;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.input-container input{
+    font-family: "Mulish";
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    border-radius: 100px;
+    width: 100%;
+    height: 43px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border: 1px solid #3d3d3d;
+    background: #242424;
+    color: #f9f4f1;
+}
+
+.input-container input:hover{
+    border: 1px solid grey;
+}
+
+.submit_btn{
+    border-radius: 75px;
+    border: 1px solid #ff9110;
+    height: 40px;
+    width: 158px;
+    background-color: #ff9110;
+    font-size: 20px;
+    color: #2b2b2d;
+    font-family: "Mulish";
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 475px
+}
+
+.submit_btn:hover{
+    border: 2px solid gray;
+}
+
+.error-message{
+    color: #f14b53;
+    font-family: "Mulish";
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 350px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.wait-message{
+    color: white;
+    font-family: "Mulish";
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 650px){
+    .login-form-header{
+        margin-right: 0;
+    }
+
+    .input-container{
+        width: 100%;
+    }
+
+    .form{
+        align-items: center;
+        width: 100%;
+    }
+
+    .submit_btn{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 280px;
+    }
+
+    .error-message{
+        margin-right: 0;
+    }
+    
+}

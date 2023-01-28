@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 91px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: "Cat Linz";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 90px;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+
+.user{
+    display: flex;
+}
+
+.username{
+    font-family: "Mulish";
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 80px;
+    margin-right: 22px;
+}
+
+.logout_btn{
+    background-color: #161616;
+    border: 0;
+    color: #ff9110;
+    cursor: pointer;
+    padding: 10px 10px;
+    line-height: 60px;
+    font-family: "Mulish";
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+}
+
+.logout_btn:hover{
+    color: #b5670e;
+}
+
+
+@media (max-width: 799px){
+
+    .logout_btn{
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+}

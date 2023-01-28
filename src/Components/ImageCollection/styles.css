@@ -1,0 +1,101 @@
+.img{
+    width: 276px;
+    height: 234px;
+    margin-right: 23px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#image-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.image-title{
+    font-family: "Cat Linz";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 90px;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+
+@media (max-width: 1211px){
+
+    .collection{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img{
+        width: 330px;
+        height: 234px;
+        margin-right: 23px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+
+}
+
+@media (max-width: 1105px){
+    .img{
+        width: 300px;
+        height: 234px;
+        margin-right: 23px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 1015px){
+
+    .img{
+        width: 250px;
+        height: 234px;
+        margin-right: 23px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+
+}
+
+
+
+@media (max-width: 865px){
+
+    .img{
+        width: 200px;
+        height: 234px;
+        margin-right: 23px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+
+}
+
+@media (max-width: 512px){
+
+    .img{
+        width: 154px;
+        height: 122px;
+    }
+
+
+    .collection{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 370px){
+
+    .img{
+        margin-right: 18px;
+    }
+
+}
