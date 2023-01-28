@@ -3,4 +3,4 @@
 Login: admin;
 Password: 12345678;
 
-deploy: https://63d594eb5e458b41e7e3f3f7--friendly-lokum-7aabe3.netlify.app/
+deploy: https://63d59c8fff3d604e97d34acf--friendly-lokum-7aabe3.netlify.app/main

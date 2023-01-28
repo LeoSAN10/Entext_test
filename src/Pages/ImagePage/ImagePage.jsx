@@ -19,7 +19,6 @@ export const ImagePage = () => {
         console.warn(err);
       });
   }, [imageId.imageId]);
-  console.log(ImageInfo);
 
   return (
     <div className="imagePage">
